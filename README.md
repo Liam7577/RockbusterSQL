@@ -3,8 +3,8 @@
 Rockbuster Stealth LLC is a video rental company that is trying to break into the online video rental service. Their goal is to stay competitive against competitors like Netfilx and Amazon Prime and this project is to use the data to successfully launch the online video service. 
 
 # Key Questions
-#What was the average rental duration for all videos?
-#Which movies contributed the most and least to revenue gain?
+What was the average rental duration for all videos?
+Which movies contributed the most and least to revenue gain?
 Do sales figures vary between geographical regions?
 In which countries are Rockbuster’s customers based?
 Where are customers with a high lifetime value located?
