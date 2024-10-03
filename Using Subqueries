@@ -1,4 +1,4 @@
-# Find the average amount paid by the top 5 customers 
+# Find the average amount paid by the top 5 customers using subqueries
 
 SELECT AVG(total_amount_paid) AS Average 
 FROM
@@ -21,7 +21,7 @@ GROUP BY B.customer_id, B.first_name, B.last_name, E.country, D.city
 ORDER BY SUM(amount) DESC
 LIMIT 5) AS total_amount_paid
 
-# Finding how many of the top 5 customers are based within each country
+# Finding how many of the top 5 customers are based within each country using subqueries 
 
 SELECT E.country, COUNT(DISTINCT B.customer_id) AS all_customer_count, COUNT(DISTINCT top_five_customers.customer_id) AS top_customer_count 
 FROM customer B
