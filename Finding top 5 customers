@@ -1,3 +1,5 @@
+# Fining the top 5 customers, from the top 10 cities who have paid the highest total amounts to Rockbuster
+
 # Query to find top 10 countries for Rockbuster in terms of customer numbers.
 
 SELECT D.country, 
